@@ -4,21 +4,22 @@
     "name": "Marwan Rabbâa",
     "email": "mrabbaa@groupon.com"
   },
-  "parameters":[
-    {
-      "name": "from",
-      "type": "number",
-      "required": true
-    },
-    {
-      "name": "to",
-      "type": "number",
-      "required": true
-    }
-  ],
+  "parameters": [{
+    "name": "from",
+    "type": "number",
+    "required": true
+  }, {
+    "name": "to",
+    "type": "number",
+    "required": true
+  }, {
+    "name": "supportId",
+    "type": "number",
+    "required": true
+  }],
   "defaultLocale": "en",
   "private": true,
   "noTemplate": true,
-  "location": [ "new_ticket_sidebar", "ticket_sidebar" ],
+  "location": ["new_ticket_sidebar", "ticket_sidebar"],
   "frameworkVersion": "1.0"
 }

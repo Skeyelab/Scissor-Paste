@@ -1,7 +1,7 @@
 {
   "app": {
-    "description":  "Reduce a custom field",
-    "name":         "Shorly",
+    "description": "Reduce a custom field",
+    "name": "Shorly",
     "parameters": {
       "from": {
         "label": "Reason",
@@ -9,6 +9,10 @@
       },
       "to": {
         "label": "Reason code",
+        "helpText": "Custom field Id"
+      },
+      "supportId": {
+        "label": "Support ID field",
         "helpText": "Custom field Id"
       }
     }
