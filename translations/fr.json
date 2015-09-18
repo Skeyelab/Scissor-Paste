@@ -1,0 +1,16 @@
+{
+  "app": {
+    "description":  "Réduis le nombre de caractère d'un custom field (en en créant un autre)",
+    "name":         "Shorly",
+    "parameters": {
+      "from": {
+        "label": "Reason",
+        "helpText": "Id du custom field"
+      },
+      "to": {
+        "label": "Reason code",
+        "helpText": "Id du custom field"
+      }
+    }
+  }
+}

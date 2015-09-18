@@ -1,0 +1,16 @@
+{
+  "app": {
+    "description":  "Reduce a custom field",
+    "name":         "Shorly",
+    "parameters": {
+      "from": {
+        "label": "Reason",
+        "helpText": "Custom field Id"
+      },
+      "to": {
+        "label": "Reason code",
+        "helpText": "Custom field Id"
+      }
+    }
+  }
+}
